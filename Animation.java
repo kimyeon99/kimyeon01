@@ -25,7 +25,6 @@ public class Animation extends JPanel implements ActionListener {
 	public Animation() {
 
 		File file = new File("./airplane.png");
-		System.out.println(file.getAbsolutePath());
 		
 		try {
 			image = ImageIO.read(file);
